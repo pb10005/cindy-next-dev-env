@@ -23,12 +23,13 @@ vagrant ssh
 ## 5. Setup
 ```shell
 # chmod 777 <filename> to permit execution
+cd /usr/app/shell
 ./install_nvm.sh
 ./install_hasura_cli.sh
 ./install_global_tools.sh
+./run_postgres.sh
 
 cd /usr/app/cindy
-./run_postgres.sh
 
 yarn dev:apollo
 ./docker-run.sh
