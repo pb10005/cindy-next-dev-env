@@ -27,6 +27,7 @@ cd /usr/app/shell
 ./install_nvm.sh
 ./install_hasura_cli.sh
 ./install_global_tools.sh
+./generate_key_pair.sh
 ./run_postgres.sh
 
 cd /usr/app/cindy
