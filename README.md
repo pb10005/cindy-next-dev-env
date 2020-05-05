@@ -37,7 +37,7 @@ yarn dev:apollo
 
 hasura migrate apply --admin-secret <your-hasura-admin-secret>
 
-export export HASURA_GRAPHQL_ADMIN_SECRET=<your-hasura-admin-secret>
+export HASURA_GRAPHQL_ADMIN_SECRET=<your-hasura-admin-secret>
 
 yarn export-schema
 yarn export-graphql-types
