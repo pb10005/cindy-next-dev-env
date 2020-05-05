@@ -8,7 +8,7 @@ Development environment for [heyrict/cindy-next](https://github.com/heyrict/cind
 ```shell
 git clone https://github.com/heyrict/cindy-next.git
 ```
-Note that `Vagrantfile` and `cindy-next` are at the same directory.
+Make sure that `Vagrantfile` and `cindy-next` are at the same directory.
 
 ## 3. Start a VM instance
 ```shell
