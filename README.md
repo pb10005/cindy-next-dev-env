@@ -21,6 +21,7 @@ vagrant ssh
 ```
 
 ## 5. Setup
+Run the commands below.
 ```shell
 # chmod 777 <filename> to permit execution
 cd /usr/app/shell
@@ -43,3 +44,4 @@ yarn export-schema
 yarn export-graphql-types
 yarn dev:next
 ```
+then access http://localhost:3000
